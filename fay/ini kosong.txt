@@ -1,1 +1,14 @@
-jangan kosong
+git init 
+git add . 
+git commit -m "first commit" 
+git remote add origin https://github.com/mirongdev/mirongdev.github.io.git
+git push -u origin master
+
+
+-------------
+// mengupload keseluruhan file pada repo (hanya digunakan saat upload pertama saja)
+git add .
+// mengupload file sesuai dengan nama file
+git add index.html
+// mengupload file pada dalam folder
+git add pages/index.html
