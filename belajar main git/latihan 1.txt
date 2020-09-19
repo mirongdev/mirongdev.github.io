@@ -17,3 +17,7 @@ untuk upload file
 $ git add .
 git commit -m "first commit" 
 git push -u origin master
+
+
+referensi
+https://medium.com/aisy-rozsidhy/tutorial-penggunaan-github-untuk-pemula-part-1-upload-file-ke-github-e807df4e9ecc
