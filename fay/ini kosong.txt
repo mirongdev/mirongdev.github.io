@@ -12,3 +12,8 @@ git add .
 git add index.html
 // mengupload file pada dalam folder
 git add pages/index.html
+
+untuk upload file
+$ git add .
+git commit -m "first commit" 
+git push -u origin master
