@@ -1,6 +1,6 @@
 {
 
-    "ads_remote":false,
+    "ads_remote":true,
 
     "app_remote":false,
 
@@ -12,7 +12,7 @@
 
         "test_mode":true,
 
-        "ads_backup":true,
+        "ads_backup":false,
 
         "gdpr_popup":true,
 
