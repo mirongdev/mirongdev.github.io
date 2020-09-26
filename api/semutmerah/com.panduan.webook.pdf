@@ -2,13 +2,13 @@
 
     "ads_remote":true,
 
-    "app_remote":false,
+    "app_remote":true,
 
     "ads_settings": [
 
       {      
 
-        "ads_network":"3",
+        "ads_network":"2",
 
         "test_mode":true,
 
@@ -74,7 +74,7 @@
 
       "id_drive":"1mRbwzSI9PuZxQFoaJrEltXuWfPRlBhZZ",
 
-      "content_fake":false,
+      "content_fake":true,
 
       "url_content_fake":"http://google.com",
 
