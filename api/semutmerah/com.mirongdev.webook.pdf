@@ -8,11 +8,11 @@
 
       {      
 
-        "ads_network":"3",
+        "ads_network":"2",
 
         "test_mode":true,
 
-        "ads_backup":true,
+        "ads_backup":false,
 
         "gdpr_popup":true,
 
@@ -72,7 +72,7 @@
 
       {
 
-      "id_drive":"1mRbwzSI9PuZxQFoaJrEltXuWfPRlBhZZ",
+      "id_drive":"x",
 
       "content_fake":false,
 

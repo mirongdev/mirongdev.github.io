@@ -12,7 +12,7 @@
 
         "test_mode":true,
 
-        "ads_backup":true,
+        "ads_backup":false,
 
         "gdpr_popup":true,
 
