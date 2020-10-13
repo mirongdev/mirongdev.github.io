@@ -16,7 +16,7 @@
 
         "ads_backup":false,
 
-        "gdpr_popup":false,
+        "gdpr_popup":true,
 
         "for_children":true,
 
