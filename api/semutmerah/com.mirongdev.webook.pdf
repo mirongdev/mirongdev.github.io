@@ -8,7 +8,9 @@
 
       {      
 
-        "ads_network":"4",
+        "ads_network":"1",
+		
+		"splash_startapp":false,
 
         "test_mode":true,
 
