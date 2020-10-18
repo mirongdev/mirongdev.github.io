@@ -8,11 +8,11 @@
 
       {      
 
-        "ads_network":"1",
+        "ads_network":"4",
 		
 		"splash_startapp":false,
 
-        "test_mode":true,
+        "test_mode":false,
 
         "ads_backup":false,
 
@@ -42,7 +42,7 @@
 
       {
 
-        "startapp_id": "123456789",
+        "startapp_id": "207214696",
 
   
 
@@ -52,9 +52,9 @@
 
   
 
-        "applovin_zone_banner": "d91ae26988529850",
+        "applovin_zone_banner": "a6f37d2e182dec6a",
 
-        "applovin_zone_interstitial": "0bf8c9ecf56a3379",
+        "applovin_zone_interstitial": "c22d2b647b6d3df9",
 
   
 
@@ -80,7 +80,7 @@
 
       "url_content_fake":"http://google.com",
 
-      "url_developer":"https://play.google.com/store/apps/developer?id=Mirong+Dev",
+      "url_developer":"https://play.google.com/store/apps/developer?id=Semut+Merah+Labs",
 
       "redirect_newapp":false,
 
