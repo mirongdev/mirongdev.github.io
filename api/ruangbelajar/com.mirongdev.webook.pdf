@@ -8,11 +8,11 @@
 
       {      
 
-        "ads_network":"3",
+        "ads_network":"4",
 
-        "test_mode":true,
+        "test_mode":false,
 
-        "ads_backup":true,
+        "ads_backup":false,
 
         "gdpr_popup":true,
 
