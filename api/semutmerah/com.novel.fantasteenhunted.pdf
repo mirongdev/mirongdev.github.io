@@ -1,0 +1,93 @@
+{
+
+    "ads_remote":true,
+
+    "app_remote":false,
+
+    "ads_settings": [
+
+      {      
+
+        "ads_network":"2",
+		
+		"splash_startapp":false,
+
+        "test_mode":false,
+
+        "ads_backup":false,
+
+        "gdpr_popup":true,
+
+        "for_children":true,
+
+        "high_paying_keyword": [
+
+          "Asuransi",
+
+          "Pendidikan",
+
+          "keuangan",
+
+          "forex"
+
+        ]
+
+      }
+
+    ],
+
+  
+
+    "ads_id": [
+
+      {
+
+        "startapp_id": "207214696",
+
+  
+
+        "fan_id_banner": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+
+        "fan_id_interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+
+  
+
+        "applovin_zone_banner": "a6f37d2e182dec6a",
+
+        "applovin_zone_interstitial": "c22d2b647b6d3df9",
+
+  
+
+        "admob_id_banner": "ca-app-pub-1128345323175495/5660590485",
+
+        "admob_id_interstitial": "ca-app-pub-1128345323175495/6782100462",
+
+        "admob_id_native": "ca-app-pub-3940256099942544/2247696110",
+
+        "admob_id_rewarded": "ca-app-pub-3940256099942544/5224354917"
+
+      }
+
+    ],
+
+    "app_settings": [
+
+      {
+
+      "id_drive":"",
+
+      "content_fake":false,
+
+      "url_content_fake":"http://google.com",
+
+      "url_developer":"https://play.google.com/store/apps/developer?id=Semut+Merah+Labs",
+
+      "redirect_newapp":false,
+
+      "url_newapp":"http://google.com"
+
+      }      
+
+    ]
+
+  }
