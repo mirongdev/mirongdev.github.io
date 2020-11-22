@@ -8,7 +8,7 @@
 
       {      
 
-        "ads_network":"2",
+        "ads_network":"4",
 		
 		"splash_startapp":false,
 
@@ -46,9 +46,9 @@
 
   
 
-        "fan_id_banner": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+        "fan_id_banner": "1265655767145898_1274019576309517",
 
-        "fan_id_interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+        "fan_id_interstitial": "1265655767145898_1274020102976131",
 
   
 
@@ -58,9 +58,9 @@
 
   
 
-        "admob_id_banner": "ca-app-pub-1128345323175495/9337814994",
+        "admob_id_banner": "ca-app-pub-1128345323175495/3555595881",
 
-        "admob_id_interstitial": "ca-app-pub-1128345323175495/2772406645",
+        "admob_id_interstitial": "ca-app-pub-1128345323175495/1915211153",
 
         "admob_id_native": "ca-app-pub-3940256099942544/2247696110",
 
