@@ -18,6 +18,19 @@ $ git add .
 git commit -m "first commit" 
 git push -u origin master
 
+jika gagal
+git push -f heroku master
 
 referensi
 https://medium.com/aisy-rozsidhy/tutorial-penggunaan-github-untuk-pemula-part-1-upload-file-ke-github-e807df4e9ecc
+
+https://www.petanikode.com/git-pull-fetch/
+heroku
+https://f-a.nz/dev/update-deploy-to-heroku-app/
+
+
+https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
+step menghapus cache
+git rm -r --cached some-directory
+git commit -m 'Remove the now ignored directory "some-directory"'
+git push origin master
