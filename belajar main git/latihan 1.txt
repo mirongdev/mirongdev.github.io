@@ -1,0 +1,41 @@
+git init 
+git add . 
+git commit -m "first commit" 
+git remote add origin https://github.com/mirongdev/mirongdev.github.io.git
+git push -u origin master
+
+
+Jika baru pertama kali meggunakan software Git, sebaiknya konfigurasi username dan email dulu
+Git config --global user.name "username anda"
+Git config --global user.email "email anda"
+
+
+-------------
+// mengupload keseluruhan file pada repo (hanya digunakan saat upload pertama saja)
+git add .
+// mengupload file sesuai dengan nama file
+git add index.html
+// mengupload file pada dalam folder
+git add pages/index.html
+
+untuk upload file
+$ git add .
+git commit -m "first commit" 
+git push -u origin master
+
+jika gagal
+git push -f heroku master
+
+referensi
+https://medium.com/aisy-rozsidhy/tutorial-penggunaan-github-untuk-pemula-part-1-upload-file-ke-github-e807df4e9ecc
+
+https://www.petanikode.com/git-pull-fetch/
+heroku
+https://f-a.nz/dev/update-deploy-to-heroku-app/
+
+
+https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
+step menghapus cache
+git rm -r --cached some-directory
+git commit -m 'Remove the now ignored directory "some-directory"'
+git push origin master
