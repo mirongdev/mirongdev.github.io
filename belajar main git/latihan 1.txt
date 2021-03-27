@@ -33,7 +33,7 @@ https://www.petanikode.com/git-pull-fetch/
 heroku
 https://f-a.nz/dev/update-deploy-to-heroku-app/
 
-
+https://medium.com/@danairwanda/start-upload-your-project-at-github-fcbe0448bf12
 https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
 step menghapus cache
 git rm -r --cached some-directory
