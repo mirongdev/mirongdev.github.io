@@ -6,7 +6,7 @@
       "ads_network": "4",
       "ads_network_banner": "4",
       "interstitial": true,
-      "interstitial_count": 2,
+      "interstitial_count": 3,
       "splash_startapp": true,
       "test_mode": true,
       "ads_backup": false,
@@ -39,6 +39,8 @@
       "content_fake": false,
       "url_content_fake": "http://google.com",
       "url_developer": "https://play.google.com/store/apps/developer?id=Semut+Merah+Labs",
+      "update_via_remote": false,
+      "versi_app_remote": 10100,
       "redirect_newapp": false,
       "url_newapp": "http://google.com"
     }
