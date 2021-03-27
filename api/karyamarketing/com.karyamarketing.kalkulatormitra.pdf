@@ -3,8 +3,8 @@
   "app_remote": true,
   "ads_settings": [
     {
-      "ads_network": "1",
-      "ads_network_banner": "1",
+      "ads_network": "4",
+      "ads_network_banner": "4",
       "interstitial": true,
       "interstitial_count": 2,
       "splash_startapp": true,
