@@ -1,9 +1,9 @@
 {
-  "ads_remote": false,
-  "app_remote": false,
+  "ads_remote": true,
+  "app_remote": true,
   "ads_settings": [
     {
-      "test_mode": false,
+      "test_mode": true,
       "splash_startapp": false,
       "ads_backup": false,
       "gdpr_popup": true,
