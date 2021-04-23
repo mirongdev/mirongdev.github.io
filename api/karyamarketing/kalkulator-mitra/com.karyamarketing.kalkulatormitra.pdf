@@ -1,6 +1,6 @@
 {
-  "ads_remote": false,
-  "app_remote": false,
+  "ads_remote": true,
+  "app_remote": true,
   "ads_settings": [
     {
       "test_mode": false,
@@ -8,8 +8,8 @@
       "ads_backup": false,
       "gdpr_popup": true,
       "for_children": true,
-      "ads_network_banner": 4,
-      "ads_network_interstitial": 4,
+      "ads_network_banner": 0,
+      "ads_network_interstitial": 0,
       "interstitial_active": true,
       "interstitial_counter": 4,
       "interstitial_random": 4,
