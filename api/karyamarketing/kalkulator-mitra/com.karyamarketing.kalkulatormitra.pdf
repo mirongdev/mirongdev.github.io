@@ -38,12 +38,13 @@
   "app_settings": [
     {
       "app_update": true,
-      "versi_app_update": 21100,
+      "versi_app_update": 21200,
+      "message_app_update":"Versi terbaru telah tersedia, Update sekarang!",
       "url_app_update": "http://play.google.com/store/apps/details?id=com.karyamarketing.kalkulatormitra",
       "redirect_new_playstore": false,
       "url_new_playstore": "http://google.com",
       "url_developer": "https://play.google.com/store/apps/developer?id=karyamarketing",
-      "url_privacy_policy": "https://play.google.com/store/apps/developer?id=karyamarketing",
+      "url_privacy_policy": "https://sites.google.com/view/karyamarketing/policy",
       "id_drive_pdf": "",
       "webview_fake": false,
       "url_webview_fake": "http://google.com"
