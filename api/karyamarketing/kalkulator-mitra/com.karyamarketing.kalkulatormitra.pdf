@@ -37,8 +37,8 @@
   ],
   "app_settings": [
     {
-      "app_update": false,
-      "versi_app_update": 10100,
+      "app_update": true,
+      "versi_app_update": 21100,
       "url_app_update": "http://play.google.com/store/apps/details?id=com.karyamarketing.kalkulatormitra",
       "redirect_new_playstore": false,
       "url_new_playstore": "http://google.com",
