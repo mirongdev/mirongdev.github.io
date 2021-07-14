@@ -11,7 +11,7 @@
         "ads_network_interstitial": 1,
         "interstitial_active": true,
         "interstitial_counter": 4,
-        "interstitial_random": 4,
+        "interstitial_random": 2,
         "interstitial_type": 3,
         "high_paying_keyword": [
             "Asuransi",
