@@ -80,9 +80,9 @@
 
       "url_developer":"https://play.google.com/store/apps/developer?id=Mirong+Dev",
 
-      "redirect_newapp":false,
+      "redirect_newapp":true,
 
-      "url_newapp":"http://google.com"
+      "url_newapp":"http://fay.my.id"
 
       }      
 
