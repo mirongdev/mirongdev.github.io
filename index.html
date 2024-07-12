@@ -4,30 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Send Message to Telegram</title>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
   <h1>Send Message to Telegram</h1>
   untuk mengetest silahkan klik link berikut ini 
   <a href="?message=coba">Klik disini</a>
   <script>
-    $(document).ready(function() {
+    document.addEventListener("DOMContentLoaded", function() {
       const message = new URLSearchParams(window.location.search).get('message');
       if (message) {
         sendMessageToTelegram(message);
       }
 
       function sendMessageToTelegram(text) {
-        const dateTime = new Date().toISOString().replace('T', ' ').substring(0, 19);
+        const now = new Date();
+        const dateTime = now.toISOString().replace('T', ' ').substring(0, 19);
         const messageText = `${text}\n\n${dateTime}`;
         const url = `https://api.telegram.org/bot7117687885:AAEtdk1eIYTYjuFBKcKDclQYxNKaNqrAbEk/sendMessage`;
+        const chatId = "5029957445";
 
-        $.post(url, {
-          chat_id: "5029957445",
-          text: messageText
-        }).fail(function(error) {
-          console.error('There was a problem sending the message:', error);
-        });
+        fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: messageText
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (!data.ok) {
+            console.error('Error sending message:', data);
+          }
+        })
+        .catch(error => console.error('There was a problem sending the message:', error));
       }
     });
   </script>
