@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send Message to Telegram</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h1>Send Message to Telegram</h1>
+untuk mengetest silahkan klik link berikut ini 
+<a href="?message=coba">Klik disini</a>
+  <script>
+    $(document).ready(function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const message = urlParams.get('message');
+
+      if (message) {
+        sendMessageToTelegram(message);
+      } else {
+        console.error('No message provided in URL parameter.');
+      }
+
+      function getCurrentDateTime() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+      }
+
+      function sendMessageToTelegram(text) {
+        const dateTime = getCurrentDateTime();
+        const messageText = `${text}\n\n${dateTime}`;
+
+        const secretToken = "7117687885:AAEtdk1eIYTYjuFBKcKDclQYxNKaNqrAbEk";
+        const chatId = "5029957445";
+
+        const url = `https://api.telegram.org/bot${secretToken}/sendMessage`;
+
+        $.ajax({
+          url: url,
+          method: 'POST',
+          data: {
+            chat_id: chatId,
+            text: messageText
+          },
+          success: function() {
+           // alert('Pesan berhasil dikirim adalah:\n '+ text);
+          },
+          error: function(xhr, status, error) {
+            console.error('There was a problem sending the message:', error);
+            //alert('Failed to send message. Please try again later.');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
