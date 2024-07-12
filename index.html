@@ -7,7 +7,6 @@
 </head>
 <body>
   <h1>Send Message to Telegram</h1>
-  untuk mengetest silahkan klik link berikut ini 
   <a href="?message=coba">Klik disini</a>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -35,11 +34,23 @@
         })
         .then(response => response.json())
         .then(data => {
-          if (!data.ok) {
-            console.error('Error sending message:', data);
+          if (data.ok) {
+            logToFile('Message sent successfully: ' + JSON.stringify(data));
+          } else {
+            logToFile('Error sending message: ' + JSON.stringify(data));
           }
         })
-        .catch(error => console.error('There was a problem sending the message:', error));
+        .catch(error => logToFile('There was a problem sending the message: ' + error));
+      }
+
+      function logToFile(message) {
+        fetch('log.php', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: 'log=' + encodeURIComponent(message)
+        });
       }
     });
   </script>
